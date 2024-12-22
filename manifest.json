@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "BankSystem",
+        "description": "Made by me Kenny:]]",
+        "uuid": "7d59bf11-4753-425e-a797-6092213af611",
+        "version": "1.0.0",
+        "min_engine_version": [1, 21, 40]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "uuid": "93ea697e-a9d2-4e17-b5c1-1ceabf8a385c",
+            "entry": "scripts/index.js",
+            "version": [0, 1, 0]
+        }
+    ],
+    "capabilities": ["script_eval"],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.15.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.3.0"
+        }
+    ]
+}
